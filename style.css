@@ -347,6 +347,29 @@ nav {
   font-size: 1.2rem;
 }
 
+.tryhackme-badge {
+  max-width: 600px;         /* keeps it from stretching too wide */
+  margin: 2rem auto;        /* centers and adds spacing */
+  background: var(--card-bg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.tryhackme-badge h3 {
+  color: var(--primary);
+  margin-bottom: 1rem;
+}
+
+.tryhackme-badge iframe {
+  border: none;
+  width: 100%;              /* responsive */
+  height: 420px;            /* tuned so no scroll */
+  overflow: hidden;
+  border-radius: var(--border-radius);
+}
+
 /* ===== Disclosures Section (Final Fix) ===== */
 #disclosures {
   padding: 2rem 5%;
