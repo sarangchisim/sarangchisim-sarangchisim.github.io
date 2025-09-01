@@ -364,8 +364,8 @@ nav {
 
 .tryhackme-badge iframe {
   border: none;
-  width: 100%;              /* responsive */
-  height: 420px;            /* tuned so no scroll */
+  width: 60%;              /* responsive */
+  height: 90px;            /* tuned so no scroll */
   overflow: hidden;
   border-radius: var(--border-radius);
 }
